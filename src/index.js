@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Clock from "./components/Clock/Clock";
 import ListContainer from "./components/List/ListContainer";
+import Todo from "./components/Todo/TodoContainer/TodoContainer";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,9 +15,9 @@ ReactDOM.render(
       <Route path="home" element={<App />} />
       <Route path="clock" element={<Clock />} />
       <Route path="list" element={<ListContainer />} />
+      <Route path="todo" element={<Todo />} />
     </Routes>
-    <React.StrictMode>
-    </React.StrictMode>
+    <React.StrictMode></React.StrictMode>
   </BrowserRouter>,
   document.getElementById("root")
 );

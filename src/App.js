@@ -1,10 +1,5 @@
 import { Link} from "react-router-dom";
-
-import logo from "./logo.svg";
 import "./App.css";
-import Hello from "./components/Hello";
-import Clock from "./components/Clock/Clock";
-import ListContainer from "./components/List/ListContainer";
 
 function App() {
   return (
@@ -36,6 +31,8 @@ function App() {
         <Link to="/Home">Home</Link>
         <Link to="/clock">Clock</Link>
         <Link to="/list">List</Link>
+        <Link to="/list">List</Link>
+        <Link to='/todo'>TODO</Link>
       </nav>
       <br />
 
